@@ -1,0 +1,13 @@
+# Lista de exemplo de modelos que podem ser baixados com:
+#   ai-runner pull <model_id>
+#
+# Modelos pequenos, bons para testar CPU/laptop:
+- gpt2                                   # 124M, geração de texto em inglês
+- distilgpt2                             # versão menor/mais rápida do gpt2
+- microsoft/Phi-3-mini-4k-instruct       # ~3.8B, bom para agentes
+- Qwen/Qwen2.5-0.5B-Instruct             # muito leve, ótimo para testes rápidos
+- sentence-transformers/all-MiniLM-L6-v2 # embeddings, útil p/ RAG
+
+# Modelos maiores (exigem mais RAM/VRAM):
+- meta-llama/Llama-3.2-1B-Instruct
+- mistralai/Mistral-7B-Instruct-v0.3
